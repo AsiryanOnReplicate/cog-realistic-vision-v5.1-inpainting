@@ -4,7 +4,7 @@
 import os
 import sys
 import torch
-from diffusers import StableDiffusionImg2ImgPipeline
+from diffusers import StableDiffusionInpaintPipeline
 
 # append project directory to path so predict.py can be imported
 sys.path.append('.')
@@ -15,7 +15,7 @@ if not os.path.exists(MODEL_CACHE):
     os.makedirs(MODEL_CACHE)
     
 url = "https://huggingface.co/asiryan/realistic-vision/blob/main/realisticVisionV51_v51VAE-inpainting.safetensors"
-pipe = StableDiffusionImg2ImgPipeline.from_single_file(
+pipe = StableDiffusionInpaintPipeline.from_single_file(
     url,
     torch_dtype=torch.float16
 )

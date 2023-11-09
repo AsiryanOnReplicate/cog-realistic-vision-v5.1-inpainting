@@ -1,6 +1,6 @@
-# realistic-vision-v5-inpainting Cog model
+# realistic-vision-v5.1-inpainting Cog model
 
-This is an implementation of inpainting using the model [SG161222/Realistic_Vision_V5.0_noVAE](https://huggingface.co/SG161222/Realistic_Vision_V5.0_noVAE) as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
+This is an implementation of inpainting using the model [asiryan/realistic-vision](https://huggingface.co/asiryan/realistic-vision) as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
 
 First, download the pre-trained weights:
 
